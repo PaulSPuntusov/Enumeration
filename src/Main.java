@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Sauce s = new Sauce("Chili",Spice.MAXIMUM);
+        System.out.println(s);
     }
 }
